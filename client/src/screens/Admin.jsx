@@ -6,7 +6,7 @@ const Admin = () => {
     const [alert, setAlert] = useState({
         type: 'Flood',
         severity: 'MEDIUM',
-        zone: { name: 'Downtown Area', center: { lat: 12.9716, lng: 77.5946 }, radius: 5000 },
+        zone: { name: 'Downtown Area', center: { lat: 12.9716, lng: 77.5946 }, radius: 50000 },
         instructions: 'Evacuate to higher ground immediately.'
     });
 
